@@ -5,7 +5,8 @@ import Login from './Loginpage';
 import Navigationbar from './Navigationbar/navigation';
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import ProductDetails from './ProductDetails';
+import ProductDetails from './ProductDetails/productdetails';
+// import addProduct from './Addproduct/addproduct';
 
 
 
@@ -19,13 +20,14 @@ function App() {
         <Route index element={<Login/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/product' element={<Products/>}/>
-        <Route path='/productdetails' element={<ProductDetails/>}/>
+        <Route path='/productdetails/:productId' element={<ProductDetails/>}/>
+        {/* <Route path='/addproduct' element={<Addproduct/>}/> */}
         
         
         
       </Routes>
       </BrowserRouter>
-      <ProductDetails/>
+      
       </div>
   );
 }
