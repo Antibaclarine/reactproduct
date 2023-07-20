@@ -1,9 +1,10 @@
 nav {
-    background-color: #ce610e;
+    background-color: #21a840;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px;
+    height: 10vh;
   }
   ul {
     display: flex;

@@ -1,14 +1,14 @@
 import React from 'react';
-import'./navigation.css';
+import'./index.css';
 const Navigationbar = () => {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/login">Login</a>
+          <a href="/login">Register</a>
         </li>
         <li>
-          <a href="/product">Product</a>
+          <a href="/product">Our Products</a>
         </li>
         <li>
           <a href="/addproduct">Add products</a>
